@@ -1,0 +1,28 @@
+.equipo{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box; /*Va a hacer que no se este saliendo de la pantalla*/
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+}
+
+.input__color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.equipo h3{
+    color: #212121;
+    font-weight: 400;
+    border-bottom: 4px solid #57C278;
+    display: inline-block; /*solo ocupara el espacio necesario*/
+    padding-bottom: 8px;
+}
+
+.colaboradores{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /*si mi lista no alcanza al ancho da como un enter para seguir con los demas items*/
+}
